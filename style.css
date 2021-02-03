@@ -1,0 +1,102 @@
+/* TAG SELECTORS */
+
+body {
+  background-color: #d8c292;
+  font-family: 'Ubuntu', sans-serif;
+  color: #494949;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+h1, h2 {
+  color:#494949;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 30px;
+  line-height: 15px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+a {
+  color: rgba(182, 113, 113, 0.7);
+  text-decoration: none
+}
+
+ul {
+  margin: auto;
+}
+
+p {
+  padding: 0 50px;
+}
+a:hover {
+  color: #5b5b5b
+}
+
+/* CLASS SELECTORS */
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.text-center {
+  text-align: center
+}
+.card {
+  border-radius: 20px;
+  background-color: #c19065;
+  padding: 10px;
+  margin: 10px 10px;
+  box-shadow: 1px 2px 4px #292929;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  border: 1px solid #5b5b5b;
+}
+
+ul {
+  padding: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 40px;
+}
+
+.btn-transparent {
+  border: 1px solid rgba(172, 101, 101, 0.7);
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 50px 50px 50px 50px;
+  line-height: 50px;
+}
+
+.btn-transparent:hover {
+  border: 1px solid #5b5b5b;
+}
+/* ID SELECTORS */
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1440px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 350px;
+  }
+}
